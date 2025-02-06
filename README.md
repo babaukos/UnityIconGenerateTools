@@ -5,7 +5,7 @@ This repository contains two custom Unity Editor tools to help you generate prev
 1. **Camera Preview Generator**  
    Generates a PNG image of a selected prefab or GameObject using a custom camera. It allows you to configure the camera’s field of view, distance, rotation, resolution, background color, and layer-based rendering options.
 
-2. **Icon Generator**  
+2. **Icon Preview Generator**  
    Generates a PNG preview (icon) for a selected prefab or GameObject. You can choose to use the asset’s folder path for saving the icon automatically or manually specify a save path.
 
 ## Features
@@ -43,7 +43,7 @@ This repository contains two custom Unity Editor tools to help you generate prev
 
 ## Requirements
 
-- Unity 2018.4 or later.
+- Unity 5.6.7 or later.
 - The scripts must be placed inside a folder named `Editor` in your project.
 
 ## License
