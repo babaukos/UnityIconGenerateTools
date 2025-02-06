@@ -1,6 +1,6 @@
-# Unity Preview Tools
+# Creating item icons for your game
 
-This repository contains two custom Unity Editor tools to help you generate previews of your assets:
+This repository contains two custom Unity Editor tools to help you generate previews of your assets / game:
 
 1. **Camera Preview Generator**  
    Generates a PNG image of a selected prefab or GameObject using a custom camera. It allows you to configure the camera’s field of view, distance, rotation, resolution, background color, and layer-based rendering options.
