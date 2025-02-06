@@ -41,4 +41,13 @@ This repository contains two custom Unity Editor tools to help you generate prev
 5. Click **Generate Preview** to display the generated preview in the window.
 6. If you like the preview, click **Save PNG** to write the image to disk.
 
+## Requirements
+
+- Unity 5.6.7 or later.
+- The scripts must be placed inside a folder named `Editor` in your project.Above, this code is already in the Editor folder, so you should unzip it, anywhere in the Assets folder, I advise you to create an Editor Tools folder and put all plugins or extensions there
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
 
