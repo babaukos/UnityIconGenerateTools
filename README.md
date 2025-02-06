@@ -32,6 +32,24 @@ This repository contains two custom Unity Editor tools to help you generate prev
 4. Configure the camera settings, resolution, background, and layer options as needed.
 5. Click **Generate Image**. The PNG will be saved at the specified output path.
 
+### Icon Generator
+
+1. Place the `IconPreviewGenerator.cs` file in your Unity project's `Editor` folder.
+2. In Unity, go to **Tools > PreviewTools > Generate Preview From Icon**.
+3. In the window, select the object (prefab) for which you want to generate an icon.
+4. Optionally, check **Use Object's Path** to automatically set the save path based on the asset location.
+5. Click **Generate Preview** to display the generated preview in the window.
+6. If you like the preview, click **Save PNG** to write the image to disk.
+
+## Requirements
+
+- Unity 5.6.7 or later.
+- The scripts must be placed inside a folder named `Editor` in your project.Above, this code is already in the Editor folder, so you should unzip it, anywhere in the Assets folder, I advise you to create an Editor Tools folder and put all plugins or extensions there
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
 
 
 
