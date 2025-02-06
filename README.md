@@ -34,7 +34,7 @@ This repository contains two custom Unity Editor tools to help you generate prev
 
 ### Icon Generator
 
-1. Place the `IconGenerator.cs` file in your Unity project's `Editor` folder.
+1. Place the `IconPreviewGenerator.cs` file in your Unity project's `Editor` folder.
 2. In Unity, go to **Tools > PreviewTools > Generate Preview From Icon**.
 3. In the window, select the object (prefab) for which you want to generate an icon.
 4. Optionally, check **Use Object's Path** to automatically set the save path based on the asset location.
@@ -44,7 +44,7 @@ This repository contains two custom Unity Editor tools to help you generate prev
 ## Requirements
 
 - Unity 5.6.7 or later.
-- The scripts must be placed inside a folder named `Editor` in your project.
+- The scripts must be placed inside a folder named `Editor` in your project.Above, this code is already in the Editor folder, so you should unzip it, anywhere in the Assets folder, I advise you to create an Editor Tools folder and put all plugins or extensions there
 
 ## License
 
