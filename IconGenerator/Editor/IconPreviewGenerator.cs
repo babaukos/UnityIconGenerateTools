@@ -13,7 +13,7 @@ public class IconPreviewGenerator : EditorWindow
     [MenuItem("Tools/PreviewTools/Generate Preview From Icon")]
     private static void Init()
     {
-        IconGenerator window = (IconGenerator)GetWindow(typeof(IconGenerator));
+        IconPreviewGenerator window = (IconPreviewGenerator)GetWindow(typeof(IconPreviewGenerator));
         window.minSize = window.maxSize = new Vector2(280, 320);
         window.titleContent = new GUIContent("Preview Icon Generator");
         window.Show();
