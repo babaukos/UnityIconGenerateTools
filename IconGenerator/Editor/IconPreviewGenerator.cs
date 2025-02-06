@@ -2,7 +2,7 @@
 using UnityEditor;
 using System.IO;
 
-public class IconGenerator : EditorWindow
+public class IconPreviewGenerator : EditorWindow
 {
     // Object for rendering (prefab or GameObject)
     private Object objectToPreview;
